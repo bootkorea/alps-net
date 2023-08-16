@@ -1,5 +1,6 @@
 import React from 'react';
 import './LoginPage.css';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   const clientId = '009393601adf190d1582'; // GitHub에서 발급받은 클라이언트 ID를 입력해주세요.
@@ -21,6 +22,10 @@ const LoginPage = () => {
         <button className="github-login-btn" onClick={handleLogin}>
           깃허브 로그인
         </button>
+        {/* 회원가입 버튼 */}
+        <Link to="/register" className="register-link">
+          회원가입
+        </Link>
       </div>
     </div>
   );

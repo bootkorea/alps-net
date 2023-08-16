@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import MainPage from './components/views/MainPage/MainPage';
 import LoginPage from './components/views/LoginPage/LoginPage';
+import RegisterPage from './components/views/RegisterPage/RegisterPage';
 import CalendarPage from './components/views/CalendarPage/CalendarPage';
 import NoticePage from './components/views/NoticePage/NoticePage';
 
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route path="/login" component={LoginPage} />
+          <Route path="/register" component={RegisterPage} />
           <Route path="/calendar" component={CalendarPage} />
           <Route path="/notice" component={NoticePage} />
         </Switch>
