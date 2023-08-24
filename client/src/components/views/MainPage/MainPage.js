@@ -29,14 +29,17 @@ const MainPage = () => {
   return (
     <div className="main-container">
       <NavBar isLoggedIn={isLoggedIn} handleLoginClick={handleLoginClick} />
-
+      <div className="logo-container">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcbNVY6wUAxGpQJxwajY_d-tkqa3zmi-OrEgLoH75Yzr0SnIeZYLpjHM-G1BTMbya1yw&usqp=CAU"
+          alt="Logo"
+          className="logo-image"
+        />
+      </div>
       <div className="content">
-        <div className="graphic-container">
-          <img
-            src="https://via.placeholder.com/400"
-            alt="그래픽 이미지"
-            className="graphic-image"
-          />
+        <div className="text-container">
+          <h2>"Hello World, Hello ALPS!"</h2>
+          <p>JBNU CSAI ALGORITHM CLUB</p>
         </div>
         {/* MainPage의 내용을 넣으세요 */}
       </div>
