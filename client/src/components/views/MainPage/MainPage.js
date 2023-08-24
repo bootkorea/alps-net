@@ -39,13 +39,23 @@ const MainPage = () => {
   return (
     <div className="main-container">
       <NavBar isLoggedIn={isLoggedIn} handleLoginClick={handleLoginClick} />
-
       <div className="content sepa">
         <div className="description-container">
           <p className='title'>APLS</p>
           <p className='about-title'>전북대학교 컴퓨터인공지능공학부<br></br><br></br>알고리즘 동아리</p><br></br>
           <p>우리 동아리는 [동아리 목적 또는 활동 내용]을 중심으로 활동하고 있습니다. 함께 [동아리의 특징적인 활동이나 목표]을 추구하며 멋진 시간을 만들어봅시다.</p>
           <p>지금 바로 가입하고 우리 동아리의 멤버가 되어보세요! 우리와 함께 [동아리의 장점 또는 멤버들이 함께할 수 있는 재미있는 경험]을 나눠보세요.</p>
+      <div className="logo-container">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcbNVY6wUAxGpQJxwajY_d-tkqa3zmi-OrEgLoH75Yzr0SnIeZYLpjHM-G1BTMbya1yw&usqp=CAU"
+          alt="Logo"
+          className="logo-image"
+        />
+      </div>
+      <div className="content">
+        <div className="text-container">
+          <h2>"Hello World, Hello ALPS!"</h2>
+          <p>JBNU CSAI ALGORITHM CLUB</p>
         </div>
       </div>
 

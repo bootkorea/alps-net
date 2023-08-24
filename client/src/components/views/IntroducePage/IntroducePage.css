@@ -1,0 +1,20 @@
+.introduce-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .introduce-title {
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+  
+  .introduce-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center; /* Center-align the text */
+  }
+  

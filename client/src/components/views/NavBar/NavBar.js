@@ -15,6 +15,12 @@ const NavBar = ({ isLoggedIn, handleLoginClick }) => {
         <Link to="/calendar" className="nav-link">
           일정
         </Link>
+        <Link to="/introduce" className="nav-link">
+          소개
+        </Link>
+        <Link to="/recruitment" className="nav-link">
+          동아리원모집
+        </Link>
       </nav>
       <div className="login-logout">
         {isLoggedIn ? (
